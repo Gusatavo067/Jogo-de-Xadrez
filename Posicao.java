@@ -8,16 +8,19 @@ public class Posicao{
         this.linha=linha;
         this.coluna=coluna;
     }
-    public getLinha(){
+    public int getLinha(){
         return linha;
     }
-    public setLinha(int linha){
+    public void setLinha(int linha){
         this.linha = linha;
     }
-    public getColuna(){
+    public int getColuna(){
         return coluna;
     }
-    public setColuna(int coluna){
+    public void setColuna(int coluna){
         this.coluna = coluna;
+    }
+    public String toString(){
+        return linha + ", "+ coluna;
     }
 }
