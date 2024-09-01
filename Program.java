@@ -1,5 +1,5 @@
-package xadrez;
-import boardgame.Posicao;
+
+import Posicao;
 
 public class Program{
     public static void main(String[] args){
